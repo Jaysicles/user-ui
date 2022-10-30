@@ -209,3 +209,27 @@ input[type="submit"] {
 input[type="submit"]:active {
     opacity: 0.8;
 }
+
+
+/** FOOTER **/
+
+.bottom-shape-divider {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.bottom-shape-divider svg {
+    position: relative;
+    display: block;
+    width: calc(147% + 1.3px);
+    height: 177px;
+}
+
+.bottom-shape-divider .shape-fill {
+    fill: var(--fill-colour-purple);
+}
