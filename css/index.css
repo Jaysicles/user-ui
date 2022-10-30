@@ -10,6 +10,9 @@
     --text-colour-gray: #a09e9e;
 }
 
+
+/********** INDEX.HTML PAGE CSS **********/
+
 body {
     background-color: #252525;
     overflow: hidden;
@@ -125,3 +128,6 @@ button {
 .bottom-shape-divider .shape-fill {
     fill: var(--fill-colour-purple);
 }
+
+
+/********** LOGIN.HTML PAGE CSS **********/
