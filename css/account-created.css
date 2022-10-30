@@ -1,0 +1,125 @@
+/** VARIABLES **/
+
+:root {
+    --font-family-1: 'Poppins', sans-serif;
+    --font-family-2: 'Prompt', sans-serif;
+    --fill-colour-purple: #810d7b;
+    --fill-colour-purple-2: #7c0c92;
+    --fill-colour-purple-3: #c908bf;
+    --fill-colour-dark: #1c1c1c;
+    --text-colour-black: #000;
+    --text-colour-gray: #a09e9e;
+    --text-colour-gray-2: #8f8f8f;
+    --text-colour-white: #fff;
+}
+
+
+/********** ACCOUNT-CREATED.HTML PAGE CSS **********/
+
+body {
+    background-color: #252525;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: var(--font-family-1);
+    color: var(--text-colour-white);
+    text-align: center;
+    overflow: hidden;
+}
+
+
+/** BOX STYLING AND ANIMATION **/
+
+.box {
+    position: relative;
+    overflow: hidden;
+    width: 780px;
+    height: 420px;
+    margin-left: 300px;
+    margin-top: 100px;
+    background-color: var(--fill-colour-dark);
+    border-radius: 8px;
+}
+
+.box::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 780px;
+    height: 420px;
+    transform-origin: bottom right;
+    background: linear-gradient(0deg, transparent, var(--fill-colour-purple-2), var(--fill-colour-purple-2));
+    animation: animate 6s linear infinite;
+}
+
+.box::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 780px;
+    height: 420px;
+    transform-origin: bottom right;
+    background: linear-gradient(0deg, transparent, var(--fill-colour-purple-2), var(--fill-colour-purple-2));
+    animation: animate 6s linear infinite;
+    animation-name: -3s;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/** BOX CONTENTS **/
+
+.box-contents {
+    align-items: true;
+    text-align: center;
+    position: absolute;
+    inset: 2px;
+    background-color: var(--fill-colour-dark);
+    z-index: 10;
+    border-radius: 8px;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/** Small text in box contents **/
+
+h5 {
+    font-size: 1rem;
+    color: var(--fill-colour-purple-3);
+    font-family: var(--font-family-2);
+}
+
+
+/** BUTTON TO LOGIN PAGE **/
+
+.login-btn {
+    position: relative;
+    background-color: var(--fill-colour-purple-2);
+    border: none;
+    color: var(--text-colour-white);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+
+.login-btn:hover {
+    background-color: var(--text-colour-white);
+    color: var(--fill-colour-purple-2);
+    transition: ease-in-out 0.3s;
+}
