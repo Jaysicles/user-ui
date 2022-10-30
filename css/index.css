@@ -3,8 +3,10 @@
 :root {
     --font-family-1: 'Poppins', sans-serif;
     --font-family-2: 'Prompt', sans-serif;
+    --fill-colour-bg: #252525;
     --fill-colour-purple: #810d7b;
     --fill-colour-purple-2: #7c0c92;
+    --fill-colour-dark: #1c1c1c;
     --text-colour-white: #fff;
     --text-colour-black: #000;
     --text-colour-gray: #a09e9e;
@@ -14,7 +16,7 @@
 /********** INDEX.HTML PAGE CSS **********/
 
 body {
-    background-color: #252525;
+    background-color: var(--fill-colour-bg);
     overflow: hidden;
 }
 
