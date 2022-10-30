@@ -15,6 +15,7 @@
 
 body {
     background-color: #252525;
+    overflow: hidden;
 }
 
 h1 {
