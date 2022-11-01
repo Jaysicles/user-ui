@@ -57,6 +57,8 @@ button {
     background-color: var(--text-colour-white);
     color: var(--fill-colour-purple-2);
     transition: ease-in-out 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
 }
 
 .signup-btn {
@@ -79,6 +81,8 @@ button {
     background-color: var(--text-colour-white);
     color: var(--fill-colour-purple-2);
     transition: ease-in-out 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
 }
 
 .account-crtd-btn {
@@ -101,6 +105,8 @@ button {
     background-color: var(--text-colour-white);
     color: var(--fill-colour-purple-2);
     transition: ease-in-out 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
 }
 
 .forgot-pass-btn {
@@ -123,6 +129,8 @@ button {
     background-color: var(--text-colour-white);
     color: var(--fill-colour-purple-2);
     transition: ease-in-out 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
 }
 
 .pass-reset-btn {
@@ -145,6 +153,8 @@ button {
     background-color: var(--text-colour-white);
     color: var(--fill-colour-purple-2);
     transition: ease-in-out 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
 }
 
 
